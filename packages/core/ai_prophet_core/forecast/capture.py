@@ -89,7 +89,7 @@ def capture_snapshots(
           "captured_at": ISO timestamp,
           "event": { event_ticker, market_ticker, title, ..., category },
           "market_snapshot": { all SNAPSHOT_FIELDS from the Kalshi response },
-          "result": "" — to be filled in by the resolver
+          "result": "" (to be filled in by the resolver)
         }
     """
     captured_at = datetime.now(UTC).isoformat().replace("+00:00", "Z")

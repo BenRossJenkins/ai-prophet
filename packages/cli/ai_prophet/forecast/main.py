@@ -153,7 +153,7 @@ def capture(
 
     Designed to be run periodically (e.g., daily via cron) over an eval
     window. Each invocation appends fresh snapshots to the output JSONL.
-    A separate resolver step (not yet shipped — see issue tracker) walks
+    A separate resolver step (not yet shipped; see issue tracker) walks
     the file later, looks up each market's outcome on Kalshi, and emits
     a (snapshot, outcome) fixture for backtest evaluation.
 
