@@ -83,7 +83,7 @@ def test_perfect_agent_zero_brier():
     ]
 
     def _perfect(event: dict) -> dict:
-        # Cheat — match the result via ticker.
+        # Cheat: match the result via ticker.
         return {"p_yes": 0.99 if event["market_ticker"] == "M1" else 0.01, "rationale": ""}
 
     report = run_benchmark(_perfect, fixture)

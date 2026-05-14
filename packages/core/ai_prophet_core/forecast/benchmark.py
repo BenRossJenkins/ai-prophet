@@ -9,7 +9,7 @@ produces once you've added outcomes), produce a structured report:
   - optional baseline-agent comparison with per-category Brier deltas
 
 Use cases:
-  - Iterating on an agent during development — does your new prompt
+  - Iterating on an agent during development: does your new prompt
     actually beat the prior version?
   - Validating a submission before the eval window starts.
   - Reporting calibration bias to know which buckets need correction.
