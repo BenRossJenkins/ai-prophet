@@ -431,7 +431,7 @@ def calibrate_fit(
 
     Prints the bucket-by-bucket calibration table and saves it for use
     with `calibrate apply`. Buckets where |mean_p - mean_actual| > 0.10
-    are marked — those are where your forecaster has systematic bias.
+    are flagged as systematic bias.
     """
     _setup_logging(verbose)
 

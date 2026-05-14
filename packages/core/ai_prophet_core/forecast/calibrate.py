@@ -11,7 +11,7 @@ Useful as the eval window progresses and you accumulate resolved data:
 fit on what's resolved so far, apply to your live forecasts going
 forward.
 
-Implementation is intentionally simple — bucket the predictions by
+Implementation is intentionally simple: bucket the predictions by
 predicted probability, compute the actual yes-rate per bucket, and use
 that as the corrected probability for predictions landing in that
 bucket. No scipy/sklearn dependency.
